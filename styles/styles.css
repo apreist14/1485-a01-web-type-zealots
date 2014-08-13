@@ -10,13 +10,19 @@ header {
 }
 
 footer {
-	padding:2%;
 	clear: both;
+	width: 97%;
+	overflow: auto;
+  background-color:#999;
+  color:#FFD169;
+  margin:auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 h1 { 
 	color:#575757;
-	padding: 5%;
+	padding: 7%;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -27,7 +33,8 @@ h2 {
 
 h3 {
 	font-family: 'Open Sans Condensed', sans-serif; 
-	color: #5183A6;
+	color: #575757;
+	font-size: 20px;
 }
 
 h4{
@@ -93,6 +100,7 @@ li {
 	padding: 10%;
 	background-color:#F0F0F0;
 	line-height: 25px;
+	padding-bottom: 3%;
 }
 
 .split-container {
@@ -100,10 +108,11 @@ li {
 }
 
 .split-column { 
-	width: 45%;
+	width: 40%;
 	float: left;
 	list-style-type:none;
 	padding-left: 5%;
+	padding-right: 5%;
 	margin-bottom:20px;
 	line-height: 25px;
 	background-color:#FFD169;
@@ -121,11 +130,13 @@ dl{
 	padding-bottom: 16px;
 }
 
-.clearfix {
-	clear: both;
-}
-
 blockquote {
 	font-style : italic;
 	line-height: 25px;
+}
+
+dl dd { padding-bottom: 15px;
+}
+
+.clearfix {align-content:space-around;
 }
